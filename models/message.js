@@ -8,4 +8,4 @@ const messageSchema = new mongoose.Schema({
     isRead: { type: Boolean, default: false },
 });
 
-module.exports = mongoose.model('Message', messageSchema);
+module.exports = mongoose.model('message', messageSchema);
